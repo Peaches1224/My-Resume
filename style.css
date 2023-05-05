@@ -17,7 +17,25 @@ body {
 }
 
 .box1 {
-  border-style: solid;
+  /* border-style: solid; */
+  color: white;
+  /* background-color: orchid; */
+  /* opacity: 25%; */
+  /* background-image:linear-gradient(to bottom right, rgb(58, 75, 231)
+ ,rgb(58, 75, 231),rgb(2356,159,236),rgb(58, 75, 231),gray,rgb(236, 159, 236),white);
+  opacity: 100%;  */
+  width: 455px;
+  /* height: 315px; */
+  /* border: 1px, solid white; */
+  margin-left: 10%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.box1-Paragraph {
+  /* border-style: solid; */
   color: white;
   background-color: orchid;
   /* opacity: 25%; */
@@ -25,12 +43,13 @@ body {
  ,rgb(58, 75, 231),rgb(2356,159,236),rgb(58, 75, 231),gray,rgb(236, 159, 236),white);
   opacity: 100%;  */
   width: 455px;
-  height: 315px;
-  border: 1px, solid white;
+  /* height: 315px; */
+  border: 1px solid white;
   margin-left: 10%;
   padding-left: 7%;
   padding-right: 7%;
   padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 .box2 {
@@ -44,7 +63,10 @@ body {
   font-size: 18px;
   padding-left: 10%;
   padding-right: 10%;
+  border-radius: 10px;
 }
+
+
 
 .box3 {
   border-style: solid;
@@ -58,9 +80,11 @@ body {
   font-size: 18px;
   padding-left: 7%;
   padding-right: 7%;
-
-
+  border-radius: 10px;
 }
+
+
+
 
 .box4 {
   border-style: solid;
@@ -74,12 +98,15 @@ body {
   font-size: 18px;
   padding-left: 10%;
   padding-right: 10%;
-
+  border-radius: 10px;
 }
+
+
 
 /* where contact boxes start */
 .box5 {
   border-style: solid;
+  border-radius: 10px;
   color: white;
   margin-left: 15%;
   margin-right: 61.75%;
@@ -89,11 +116,13 @@ body {
   /* margin-bottom: 30%; */
   padding-right: 5%;
   padding-left: 5%;
+  min-width: 150px;
 
 }
 
 
 .box6 {
+  border-radius: 10px;
   margin-left: 45%;
   margin-right: 31.75%;
   border-style: solid;
@@ -102,10 +131,12 @@ body {
   padding-top: 5%;
   padding-right: 5%;
   padding-left: 5%;
+  min-width: 150px;
 }
 
 
 .box7 {
+  border-radius: 10px;
   margin-left: 15%;
   margin-right: 63%;
   border-style: solid;
@@ -114,11 +145,13 @@ body {
   padding-top: 5%;
   padding-right: 5%;
   padding-left: 5%;
+  min-width: 150px;
 
 }
 
 
 .box8 {
+  border-radius: 10px;
   margin-left: 45%;
   margin-right: 32%;
   border-style: solid;
@@ -127,6 +160,7 @@ body {
   padding-top: 5%;
   padding-right: 5%;
   padding-left: 5%;
+  min-width: 150px;
 }
 
 
@@ -141,13 +175,125 @@ body {
   /* text-shadow: 1px 2px rgba(0,0,0,.6); */
   text-align: center;
   /* border-radius: 25%; */
-  margin-left: 100px;
+  margin-left: 55px;
   margin-bottom: 32px;
   text-decoration: none;
-  padding:0 5px;
+  padding: 10px 10px;
   border-radius: 3px;
 }
 
+.button-Giants {
+  display: inline-block;
+  color: white;
+  /* padding: 3px 3px; */
+  border: none;
+  background-color: purple;
+  font-size: 25px;
+  /* transition: all 2s; */
+  /* text-shadow: 1px 2px rgba(0,0,0,.6); */
+  text-align: center;
+  /* border-radius: 25%; */
+  margin-left: 2px;
+  margin-bottom: 32px;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 3px;
+  min-width: 250px;
+}
+
+.button-tictactoe {
+  display: inline-block;
+  color: white;
+  /* padding: 3px 3px; */
+  border: none;
+  background-color: purple;
+  font-size: 25px;
+  /* transition: all 2s; */
+  /* text-shadow: 1px 2px rgba(0,0,0,.6); */
+  text-align: center;
+  /* border-radius: 25%; */
+  margin-left: 75px;
+  margin-bottom: 32px;
+  text-decoration: none;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+
+.button-github {
+  display: inline-block;
+  color: white;
+  /* padding: 3px 3px; */
+  border: none;
+  background-color: purple;
+  font-size: 25px;
+  /* transition: all 2s; */
+  /* text-shadow: 1px 2px rgba(0,0,0,.6); */
+  text-align: center;
+  /* border-radius: 25%; */
+  margin-left: 17px;
+  margin-bottom: 32px;
+  text-decoration: none;
+  padding: 5px 30px;
+  border-radius: 3px;
+
+}
+
+.button-instagram {
+  display: inline-block;
+  color: white;
+  /* padding: 3px 3px; */
+  border: none;
+  background-color: purple;
+  font-size: 25px;
+  /* transition: all 2s; */
+  /* text-shadow: 1px 2px rgba(0,0,0,.6); */
+  text-align: center;
+  /* border-radius: 25%; */
+  margin-left: 20px;
+  margin-bottom: 32px;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 3px;
+
+}
+
+.button-linkedin {
+  display: inline-block;
+  color: white;
+  /* padding: 3px 3px; */
+  border: none;
+  background-color: purple;
+  font-size: 25px;
+  /* transition: all 2s; */
+  /* text-shadow: 1px 2px rgba(0,0,0,.6); */
+  text-align: center;
+  /* border-radius: 25%; */
+  margin-left: 25px;
+  margin-bottom: 32px;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 3px;
+
+}
+
+.button-email {
+  display: inline-block;
+  color: white;
+  /* padding: 3px 3px; */
+  border: none;
+  background-color: purple;
+  font-size: 25px;
+  /* transition: all 2s; */
+  /* text-shadow: 1px 2px rgba(0,0,0,.6); */
+  text-align: center;
+  /* border-radius: 25%; */
+  margin-left: 45px;
+  margin-bottom: 32px;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 3px;
+
+}
 
 /* .button:hover{
    transform: scale(2.2);
@@ -180,6 +326,7 @@ body {
 
 /*where the project tab starts*/
 .giants {
+  border-radius: 10px;
   /* margin-left: 15%;
   margin-right: 15%; */
   border-style: solid;
@@ -188,24 +335,71 @@ body {
   /* padding-top: 5%;
   padding-right: 25%;
   padding-left: 17%; */
-  transform: translateX(100px);
+  /* transform: translateX(10px); */
 }
 
+.giants-discription {
+border-style: solid;
+  color: white;
+  background-color: orchid;
+  /* width: 500px;
+  height: 600px; */
+  /* border: 1px,solid white; */
+  /* margin-left: 60%;
+  margin-right: 20px; */
+  font-size: 25px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+  padding-top: 2%;
+  width: 400px;
+  max-height: 365px;
+  /* padding-bottom:50px ;
+  margin-bottom: 100px; */
+  /* margin-bottom: 7000px; */
+  /* transform: translateX(10px); */
+  }
+
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+
 .tictactoe {
-  /* margin-left: 30%;
-    margin-right: 35%; */
-    /* position: absolute; */
+  border-radius: 10px;
+  
   border-style: solid;
   color: white;
   background-color: orchid;
-  /* padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 2%; */
-    transform: translateX(650px);
-    /* margin-bottom: 300px; */
+
+
+  
+}
+
+.tictactoe-discription {
+  border-style: solid;
+    color: white;
+    background-color: orchid;
+    /* width: 500px;
+    height: 600px; */
+    /* border: 1px,solid white; */
+    /* margin-left: 60%;
+    margin-right: 20px; */
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    padding-top: 2%;
+    width: 400px;
+    max-height: 365px;
+    
 }
 
 .dimensions {
+  border-radius: 10px;
   /* margin-left: 30%;
     margin-right: 35%; */
   border-style: solid;
@@ -214,16 +408,45 @@ body {
   /* padding-top: 5%;
     padding-right: 7%;
       padding-left: 7%; */
-      transform: translateX(50px);
+  
 }
 
-h1 {
-  /* width:"1350x";
-    height:"300px"; */
-  border-radius: 25px;
-  /* background: cover; */
+.dimensions-discription{
+  border-style: solid;
+    color: white;
+    background-color: orchid;
+    /* width: 500px;
+      height: 600px; */
+    /* border: 1px,solid white; */
+    /* margin-left: 60%;
+      margin-right: 20px; */
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    padding-top: 2%;
+    width: 400px;
+    max-height: 365px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 450px;
+
+}
+
+footer div {
+  min-width: 200px;
+}
+
+.footer-bottom {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 500px;
+}
 
 h2 {
 
@@ -241,6 +464,11 @@ img {
   padding: 0px;
 
 
+}
+
+.img-contact {
+  width: 250px;
+  transform: translateX(-40px);
 }
 
 nav {
@@ -287,13 +515,15 @@ p {
   border-style: solid;
   color: white;
   background-color: orchid;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-right: 8%;
   padding-left: 3%;
-  width: 320px;
+  width: 200px;
   align-self: center;
   margin-bottom: 20px;
 }
+
+
 
 #projectcontainer {
   /* display: flex; */
